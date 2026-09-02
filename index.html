@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Solutions Business</title>
-    <!-- Removed external links for instant loading -->
+    <title>Nexus Automation | AI & Next-Gen Web Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <div class="logo"><strong>Newton Digital</strong></div>
-      <ul>
+  <header role="banner">
+    <nav class="nav-container" aria-label="Main Navigation">
+      <div class="logo"><strong>Nexus</strong>Automation</div>
+      
+      <button class="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false" id="menu-toggle-btn">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
         <li><a href="#services">Services</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <!-- Theme Toggle Switch -->
+        <li><a href="#testimonials">Success Stories</a></li>
+        <li><a href="#contact">Let's Connect</a></li>
         <li class="nav-switch">
           <label class="theme-switch" for="theme-toggle">
             <input type="checkbox" id="theme-toggle" aria-label="Toggle Dark Mode" />
@@ -28,98 +32,112 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <h1>Transform Your Digital Presence</h1>
-    <p>We build fast applications and smart solutions to scale your business.</p>
-    <a href="#contact" class="btn">Get Started</a>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="services-container">
-      <article>
-        <h3>💻 Web Development</h3>
-        <p>Fast and functional web applications tailored to your precise workflows.</p>
-      </article>
-
-      <article>
-        <h3>✨ UI/UX Design</h3>
-        <p>Stunning, intuitive interfaces designed to maximize user engagement.</p>
-      </article>
-
-      <article>
-        <h3>📈 Business Solutions</h3>
-        <p>Data-driven digital solutions that optimize operations and help businesses grow.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials">
-    <h2>What Our Clients Say</h2>
-    <div class="testimonials-container">
-      <div class="testimonial-card">
-        <p class="quote">"The team completely transformed our outdated portal. Our conversion rates spiked by 40% within the first month of launching!"</p>
-        <div class="client-info">
-          <strong>Sarah Jenkins</strong>
-          <span>CEO, FinTech Global</span>
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-content fade-in-up">
+        <div class="hero-badge">Next-Gen Intelligent Systems</div>
+        <h1 id="hero-heading">We Build Digital Ecosystems That Scale Automatically</h1>
+        <p>We combine high-performance web engineering with custom AI integration to eliminate your operational overhead and skyrocket your digital revenue.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Book a Strategy Call</a>
+          <a href="#services" class="btn btn-secondary">Explore Our Core Systems</a>
         </div>
       </div>
-      <div class="testimonial-card">
-        <p class="quote">"Incredibly professional, responsive, and technical. They delivered our complex web app ahead of schedule and under budget."</p>
-        <div class="client-info">
-          <strong>David Chen</strong>
-          <span>Founder, ScaleUp Media</span>
+    </section>
+
+    <section id="services" class="section-padding" aria-labelledby="services-heading">
+      <div class="section-header">
+        <h2 id="services-heading">Our Core Offerings</h2>
+        <p>Premium, secure technical blueprints engineered to put your daily business growth on absolute autopilot.</p>
+      </div>
+      <div class="services-grid">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🧠</div>
+          <h3>AI & Automation Systems</h3>
+          <p>We deploy custom internal AI agents and workflow automation loops that save up to 40+ manual labor hours every single week.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">💻</div>
+          <h3>Next-Gen Web Platforms</h3>
+          <p>Lightning-fast web applications and customer portals optimized for massive security scales and flawless conversion rates.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">📈</div>
+          <h3>Data & Scale Operations</h3>
+          <p>Advanced revenue operations dashboards and custom database frameworks designed to maximize data tracking profitability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section-padding" aria-labelledby="testimonials-heading">
+      <div class="section-header">
+        <h2 id="testimonials-heading">Proven Business Impact</h2>
+      </div>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card">
+          <p class="quote">"Nexus integrated an AI automated operations system into our web framework. Our production output doubled, and customer response times dropped to under 60 seconds."</p>
+          <cite class="client-info">
+            <strong>Marcus Vance</strong>
+            <span>VP of Operations, TechVanguard Corp</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p class="quote">"The engineering precision here is remarkable. They rebuilt our client portal from the floor up, helping us securely process millions in transactions smoothly."</p>
+          <cite class="client-info">
+            <strong>Elena Rostova</strong>
+            <span>Founder, Apex Logistics Network</span>
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="section-padding" aria-labelledby="contact-heading">
+      <div class="section-header">
+        <h2 id="contact-heading">Accelerate Your Scale Strategy</h2>
+        <p>Ready to deploy high-leverage software? Drop us a brief note about your operation, and we will sketch out your roadmap blueprint.</p>
+      </div>
+      
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your Name or Company">
         </div>
-      </div>
-    </div>
-  </section>
+        
+        <div class="form-group">
+          <label for="email">Business Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@company.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">What processes or systems are we optimizing?</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Briefly detail your core system goals or performance blockers..."></textarea>
+        </div>
+        
+        <button type="submit">Deploy Strategy Request</button>
+      </form>
+    </section>
+  </main>
 
-  <!-- Contact Section with Form -->
-  <section id="contact">
-    <h2>Let's Build Something Great</h2>
-    <p class="contact-subtitle">Drop us a line and let's discuss your project.</p>
-    
-    <form id="contact-form">
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required placeholder="Your Name">
-      </div>
-      
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-      </div>
-      
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
-      </div>
-      
-      <button type="submit" id="contact-submit-btn">Send Message</button>
-    </form>
-  </section>
-
-  <!-- Footer Section -->
-  <footer>
+  <footer role="contentinfo">
     <div class="footer-container">
       <div class="footer-brand">
-        <h3>Newton Digital</h3>
-        <p>Building high-performance digital products for modern brands.</p>
+        <h3>NexusAutomation</h3>
+        <p>Architecting secure, hyper-efficient digital infrastructure for 
+            modern, high-growth enterprise brands worldwide.</p>
       </div>
       <div class="footer-links">
         <h4>Explore</h4>
         <ul>
           <li><a href="#services">Services</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#testimonials">Success Stories</a></li>
+          <li><a href="#contact">Let's Connect</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Newton Digital. All rights reserved.</p>
+      <p>&copy; 2026 Nexus Automation. All rights reserved.</p>
     </div>
   </footer>
 
