@@ -1,203 +1,316 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" data-theme="dark"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newton Kisia | Premium Web Developer & Automation Systems</title>
+    <title>Enterprise Automation &amp; Architecture Systems</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <header role="banner">
-    <nav class="nav-container" aria-label="Main Navigation">
-      <div class="logo"><strong>Newton</strong>Kisia</div>
-      
-      <button class="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false" id="menu-toggle-btn">
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-        <span class="hamburger-line"></span>
-      </button>
-
-      <ul class="nav-links" id="nav-menu">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#pricing">Packages</a></li>
-        <li><a href="#testimonials">Impact</a></li>
-        <li><a href="#contact">Consultation</a></li>
-        <li class="nav-switch">
-          <label class="theme-switch" for="theme-toggle">
-            <input type="checkbox" id="theme-toggle" aria-label="Toggle Dark Mode" />
-            <div class="slider round"></div>
-          </label>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section with Exact Roadmap Headline Focus -->
-  <main>
-    <section id="hero" aria-labelledby="hero-heading">
-      <div class="hero-content fade-in-up">
-        <div class="hero-badge">Web Developer & Systems Engineer</div>
-        <h1 id="hero-heading">Newton Kisia — Web Developer — I build modern websites for businesses.</h1>
-        <p>I combine modern web development with intelligent automation to cut your operational friction, capture high-quality leads, and put your revenue growth on autopilot.</p>
-        <div class="hero-actions">
-          <a href="https://wa.me." target="_blank" rel="noopener" class="btn btn-whatsapp">
-            <span>💬</span> Chat on WhatsApp
-          </a>
-          <a href="#pricing" class="btn btn-secondary">View Services & Pricing</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section-padding" aria-labelledby="services-heading">
-      <div class="section-header">
-        <h2 id="services-heading">Engineered Business Solutions</h2>
-        <p>High-leverage technical frameworks designed explicitly to optimize workflows and increase customer retention.</p>
-      </div>
-      <div class="services-grid">
-        <article class="card">
-          <div class="card-icon" aria-hidden="true">💻</div>
-          <h3>Modern Web Development</h3>
-          <p>Sleek, high-converting responsive business sites, restaurant hubs, and corporate portals running at extreme speed profiles.</p>
-        </article>
-
-        <article class="card">
-          <div class="card-icon" aria-hidden="true">🧠</div>
-          <h3>AI & Workflow Automation</h3>
-          <p>Custom software pipelines, WhatsApp business automation scripts, and smart booking managers built to save 40+ operational hours weekly.</p>
-        </article>
-
-        <article class="card">
-          <div class="card-icon" aria-hidden="true">📈</div>
-          <h3>Lead Capture Engineering</h3>
-          <p>Flawless target conversion page funnels, clean metrics dashboards, and automated lead tracking frameworks optimized for profit scaling.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Roadmap Integrated Packages Pricing Section -->
-    <section id="pricing" class="section-padding" aria-labelledby="pricing-heading">
-      <div class="section-header">
-        <h2>Flexible Deployment Packages</h2>
-        <p>Clear, scalable investment blueprints built to accommodate businesses at any operational scale.</p>
-      </div>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <h3>Starter</h3>
-          <div class="price">KSh 15,000</div>
-          <p class="price-desc">Perfect for growing local brands needing an optimized digital storefront.</p>
-          <ul>
-            <li>Modern Responsive Design</li>
-            <li>Core Setup (Home, Services, Contact)</li>
-            <li>Direct WhatsApp Chat Integration</li>
-            <li>Free Secure Server Deployment</li>
-          </ul>
-          <a href="https://wa.me." target="_blank" rel="noopener" class="btn">Select Starter</a>
-        </div>
-
-        <div class="pricing-card featured">
-          <div class="featured-badge">Most Popular</div>
-          <h3>Business</h3>
-          <div class="price">KSh 30,000</div>
-          <p class="price-desc">Complete systems overhaul tailored to lead generation and workflow automation.</p>
-          <ul>
-            <li>Everything in Starter Package</li>
-            <li>Advanced Lead Forms & Dynamic Search</li>
-            <li>Basic Automation Workflows</li>
-            <li>1-Month Technical Performance Support</li>
-          </ul>
-          <a href="https://wa.me." target="_blank" rel="noopener" class="btn">Select Business</a>
-        </div>
-
-        <div class="pricing-card">
-          <h3>Premium</h3>
-          <div class="price">KSh 50,000+</div>
-          <p class="price-desc">Full-scale enterprise database infrastructure and integrated custom AI systems.</p>
-          <ul>
-            <li>Everything in Business Package</li>
-            <li>Custom Intelligent AI System Agents</li>
-            <li>Full Database & Dashboard Setup</li>
-            <li>Priority 24/7 Operations Support</li>
-          </ul>
-          <a href="https://wa.me." target="_blank" rel="noopener" class="btn">Select Premium</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="section-padding" aria-labelledby="testimonials-heading">
-      <div class="section-header">
-        <h2 id="testimonials-heading">Proven Business Impact</h2>
-      </div>
-      <div class="testimonials-grid">
-        <blockquote class="testimonial-card">
-          <p class="quote">"Newton completely revitalized our operational framework. He deployed an automated system that cut down customer delay to sub-60 seconds."</p>
-          <cite class="client-info">
-            <strong>Marcus Vance</strong>
-            <span>VP of Operations, TechVanguard Corp</span>
-          </cite>
-        </blockquote>
-        <blockquote class="testimonial-card">
-          <p class="quote">"The development efficiency is unparalleled. Our new portal runs perfectly, handles secure transactions, and has scaled customer trust exponentially."</p>
-          <cite class="client-info">
-            <strong>Elena Rostova</strong>
-            <span>Founder, Apex Logistics Network</span>
-          </cite>
-        </blockquote>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding" aria-labelledby="contact-heading">
-      <div class="section-header">
-        <h2 id="contact-heading">Initiate Project Blueprint</h2>
-        <p>Drop a line detailing your timeline requirements, and let's craft an operational growth system.</p>
-      </div>
-      
-      <form id="contact-form">
-        <div class="form-group">
-          <label for="name">Name / Company</label>
-          <input type="text" id="name" name="name" required placeholder="Your Name or Enterprise">
-        </div>
-        
-        <div class="form-group">
-          <label for="email">Business Email</label>
-          <input type="email" id="email" name="email" required placeholder="you@company.com">
-        </div>
-        
-        <div class="form-group">
-          <label for="message">What processes or systems are we optimizing?</label>
-          <textarea id="message" name="message" rows="5" required placeholder="Briefly detail your core system goals or performance blockers..."></textarea>
-        </div>
-        
-        <button type="submit">Submit Request</button>
-      </form>
-    </section>
-  </main>
-
-  <footer role="contentinfo">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <h3>NewtonKisia</h3>
-        <p>Architecting secure, hyper-efficient digital infrastructure and modern business platforms globally.</p>
-      </div>
-      <div class="footer-links">
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#pricing">Packages</a></li>
-          <li><a href="#testimonials">Impact</a></li>
-          <li><a href="#contact">Let's Connect</a></li>
-        </ul>
-      </div>
+    <!-- Dynamic Live Availability Urgency Dot Banner -->
+    <div class="availability-banner" id="availability-banner">
+        <span class="pulse-dot">●</span> <span id="availability-text">Fully Available for 1 New Client in September 2026</span>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 Newton Kisia. All rights reserved.</p>
-    </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo">NEWTON DIGITAL<span></span></a>
+            <nav class="desktop-nav">
+                <a href="#case-studies">Case Studies</a>
+                <a href="#blueprint">Blueprint</a>
+                <a href="#pricing">Investment</a>
+                <a href="#calculator">ROI Calculator</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.22" x2="5.64" y2="17.78"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+                <button class="hamburger" id="hamburger-btn" aria-label="Toggle Menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Adaptive Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <nav class="mobile-nav">
+            <a href="#case-studies" class="mobile-link">Case Studies</a>
+            <a href="#blueprint" class="mobile-link">Blueprint</a>
+            <a href="#pricing" class="mobile-link">Investment</a>
+            <a href="#calculator" class="mobile-link">ROI Calculator</a>
+            <a href="#faq" class="mobile-link">FAQ</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section with Automated Time-Zone Greeting -->
+    <section class="hero-section text-reveal revealed">
+        <div class="container">
+            <h1 id="time-greeting">Good Morning, Strategy Partner</h1>
+            <p class="hero-lead">We engineer ultra-performance custom automation matrices and specialized web footprints for enterprise targets.</p>
+            <div class="hero-ctas">
+                <a href="https://wa.me/254700000000?text=I%20am%20interested%20in%20scaling%20my%20business%20operations" class="btn btn-primary" target="_blank" rel="noopener">
+                    Launch WhatsApp Inquiry
+                </a>
+                <button class="btn btn-secondary" id="copy-email-btn">
+                    <span>Copy Architecture Core Email</span>
+                    <span class="copy-badge" id="copy-badge">Copied! 👍</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Benchmark Counter Dashboard -->
+    <section class="dashboard-section text-reveal revealed">
+        <div class="container">
+            <div class="dashboard-grid">
+                <div class="metric-card">
+                    <div class="metric-value">99.9%</div>
+                    <div class="metric-label">System Uptime Guarantee</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">&lt;1.2s</div>
+                    <div class="metric-label">Core Load Speed Metrics</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">100%</div>
+                    <div class="metric-label">Google Lighthouse SEO Rank</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Niche Case Study Switcher & Verified Modals -->
+    <section id="case-studies" class="case-studies-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Enterprise System Deployments</h2>
+            <div class="tab-container">
+                <div class="tab-headers">
+                    <button class="tab-btn active" data-tab="restaurant">Restaurant Engines</button>
+                    <button class="tab-btn" data-tab="realestate">Real Estate Platforms</button>
+                </div>
+                <div class="tab-content active" id="restaurant">
+                    <h3>Automated High-Volume Restaurant Engine</h3>
+                    <p>Designed a unified fulfillment node eliminating manual ticket processing lag. System syncs multi-branch inventories dynamically.</p>
+                    <button class="btn btn-sm btn-outline open-modal-btn" data-modal="modal-restaurant">Verify System Proof</button>
+                </div>
+                <div class="tab-content" id="realestate">
+                    <h3>Synchronized Real Estate Discovery Platform</h3>
+                    <p>Constructed an automated geometric mapping indexing node processing 14,000+ localized tier properties natively without latency.</p>
+                    <button class="btn btn-sm btn-outline open-modal-btn" data-modal="modal-realestate">Verify Live Architecture</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Blocker Capability Analyzer Checklist -->
+    <section class="analyzer-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Operational Friction Diagnostics</h2>
+            <p class="section-subtitle">Isolate operational choke points to discover targeted systems infrastructure recommendations immediately.</p>
+            <div class="analyzer-box">
+                <div class="checklist-grid">
+                    <label class="check-item">
+                        <input type="checkbox" class="friction-checkbox" value="manual">
+                        <span class="custom-box"></span>
+                        <span>Team wastes hours on repetitive manual spreadsheet entries.</span>
+                    </label>
+                    <label class="check-item">
+                        <input type="checkbox" class="friction-checkbox" value="leads">
+                        <span class="custom-box"></span>
+                        <span>Inbound pipeline drops leads due to slow fallback notifications.</span>
+                    </label>
+                    <label class="check-item">
+                        <input type="checkbox" class="friction-checkbox" value="legacy">
+                        <span class="custom-box"></span>
+                        <span>Legacy websites jiggle, layout fragments, or drops mobile conversions.</span>
+                    </label>
+                </div>
+                <div class="analyzer-feedback" id="analyzer-feedback">
+                    Select active friction points above to print customized engineering package solutions map.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Deployment Blueprint Timeline -->
+    <section id="blueprint" class="timeline-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Visual Deployment Blueprint</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-meta">Phase 01</div>
+                    <div class="timeline-body">
+                        <h3>Infrastructure Diagnostic Mapping</h3>
+                        <p>Complete structural isolation of backend friction vectors and architectural workflow bottlenecks.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-meta">Phase 02</div>
+                    <div class="timeline-body">
+                        <h3>Parallel Engine Testing</h3>
+                        <p>Constructing staging Sandboxes to validate execution triggers and data-flow integrity pipelines.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-meta">Phase 03</div>
+                    <div class="timeline-body">
+                        <h3>Production Deployment &amp; Handoff</h3>
+                        <p>Full global nameserver cutover with integrated viewport safeguards and active metric log trackers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Automation ROI Savings Calculator -->
+    <section id="calculator" class="calculator-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Interactive ROI Evaluation</h2>
+            <div class="calc-card">
+                <div class="calc-group">
+                    <label for="hours-slider">Hours Squandered on Manual Operational Loops (Weekly):</label>
+                    <div class="slider-display">
+                        <input type="range" id="hours-slider" min="5" max="60" value="15" step="1">
+                        <span class="slider-value" id="hours-val">15 Hours</span>
+                    </div>
+                </div>
+                <div class="roi-output-box">
+                    <div class="roi-stat">
+                        <span class="roi-label">Estimated Annual Capital Recovery:</span>
+                        <span class="roi-value" id="roi-savings">KSh 117,000</span>
+                    </div>
+                    <p class="roi-disclaimer">Calculated based on standard localized corporate baseline optimization variables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Investment Package Grid -->
+    <section id="pricing" class="pricing-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Roadmap Investment Packages</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="price-tier">Starter Setup</div>
+                    <div class="price-amt">KSh 15,000</div>
+                    <p class="price-desc">Core responsive digital pipeline framework with complete system viewport overrun safeguards mapping to unified root variables.</p>
+                </div>
+                <div class="price-card popular">
+                    <div class="price-badge">Recommended Enterprise Value</div>
+                    <div class="price-tier">Business Optimization</div>
+                    <div class="price-amt">KSh 30,000</div>
+                    <p class="price-desc">Advanced interactive tooling, customized niche deployment dashboard layouts, integrated live data states, and deep tracking nodes.</p>
+                </div>
+                <div class="price-card">
+                    <div class="price-tier">Premium Enterprise</div>
+                    <div class="price-amt">KSh 50,000+</div>
+                    <p class="price-desc">Full autonomous logic blueprints, zero-latency custom API middleware execution arrays, and end-to-end organizational sync scripts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smooth Animated FAQ Accordion Panel -->
+    <section id="faq" class="faq-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Onboarding System Objections</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-trigger">Are external localized server or domain hosting nodes factored in? <span class="faq-icon"></span></button>
+                    <div class="faq-panel">
+                        <div class="faq-content">
+                            <p>All core packages include base provisioning configs. Specialized high-volume domain routing registrations or cloud architecture tenancy remain structural variables separate from initialization investments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger">What specific horizon timeline is expected prior to primary cutover? <span class="faq-icon"></span></button>
+                    <div class="faq-panel">
+                        <div class="faq-content">
+                            <p>Starter baseline configurations scale to active production within 7 standard business shifts. Comprehensive Premium Enterprise arrays require structural alignment windows of up to 21 working days.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Success Form Overlay -->
+    <section class="contact-section text-reveal">
+        <div class="container">
+            <h2 class="section-title">Initialize System Architecture</h2>
+            <div class="form-container-box">
+                <form id="enterprise-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="client-name">Corporate Identity Node</label>
+                        <input type="text" id="client-name" required="" placeholder="e.g. Acme Corporation">
+                    </div>
+                    <div class="form-group">
+                        <label for="client-email">Verification Routing Email</label>
+                        <input type="email" id="client-email" required="" placeholder="name@enterprise.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">Transmit Pipeline Intent</button>
+                </form>
+                <div class="success-overlay" id="form-success-overlay">
+                    <div class="success-message-card">
+                        <div class="checkmark-icon">✓</div>
+                        <h3>Transmission Acknowledged</h3>
+                        <p>Data payload logged smoothly. Our systems engineering branch will route structural connection responses shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verified Project Destination Link Modals -->
+    <div class="modal" id="modal-restaurant">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <h3>System Proof: Restaurant Engine</h3>
+                <button class="close-modal-btn">×</button>
+            </div>
+            <div class="modal-body">
+                <p>You are navigating out to a secure, decoupled simulated sandboxed operational interface mapping layout structures for localized food services routing pipelines.</p>
+                <a href="https://example.com/proof/restaurant" class="btn btn-primary" target="_blank" rel="noopener">Advance to Active Sandbox Platform</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-realestate">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <h3>System Proof: Real Estate Discovery</h3>
+                <button class="close-modal-btn">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Accessing live verified system infrastructure module displaying localized property node indexing mapping frameworks natively.</p>
+                <a href="https://example.com/proof/realestate" class="btn btn-primary" target="_blank" rel="noopener">Advance to Digital Layout Verification</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Live System Activity Scrolling Ticker -->
+    <footer class="main-footer">
+        <div class="ticker-wrap">
+            <div class="ticker-content" id="ticker-content">
+                MONITOR NODE: OK // LOAD ACCELERATION ACTIVE // OVERRUN SAFEGUARDS ENGAGED // LATENCY INDEX &lt; 42ms // SECURITY TOKEN KEY VERIFIED // GLOBAL VARIABLE MATRIX SYNCED
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 NewtonDigital Architectures. Optimized Global System Deliverables.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
